@@ -1,0 +1,18 @@
+  .book-btn:hover {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .book-btn:active {
+    background-color: #dc3545;
+    color: #fff;
+    box-shadow: none;
+  }
+
+  button:focus {
+  outline: none;
+}
+  .book-btn:focus {
+  outline: 3px solid red;
+  outline-offset: 2px;
+}
